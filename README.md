@@ -9,7 +9,7 @@ This project is divided into several stages.
   
             Aug 26, 2024: Tableau Dashboard Overview File uploaded.
             
-            Aug 27, 2024: Jupyter Notebook for data retrieving and sampling to be uploaded.
+            Aug 27, 2024: Jupyter Notebook for data retrieving and sampling uploaded.
             
             (Jupyter Notebook for monthly dataset preparation to be uploaded)
 
