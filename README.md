@@ -14,6 +14,8 @@ This project is divided into several stages.
             Aug 28, 2024: Updated data retrieving and sampling notebook (updated some functions)
 
             Aug 29, 2024: Uploaded Tableau workbook containing some plots and dashboards.
+
+            Aug 30, 2024: Uploaded project report for the first stage (part)
             
             (Jupyter Notebook for monthly dataset preparation to be uploaded)
 
