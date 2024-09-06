@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Extensions />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VizExtensions.true...VizExtensions />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='popular_routes_general' inline='true' name='federated.1djqxxq0su93o818izvbp15lbx07' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='popular_routes_general' name='textscan.1jm9o1i0dvu4t310lycc50qdfjx8'>
+            <connection class='textscan' directory='/Users/wangshengwu/Downloads' filename='popular_routes_general.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1jm9o1i0dvu4t310lycc50qdfjx8' name='popular_routes_general.csv' table='[popular_routes_general#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='start_station_name' ordinal='0' />
+            <column datatype='string' name='end_station_name' ordinal='1' />
+            <column datatype='integer' name='station_cnt' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1jm9o1i0dvu4t310lycc50qdfjx8' name='popular_routes_general.csv' table='[popular_routes_general#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='start_station_name' ordinal='0' />
+            <column datatype='string' name='end_station_name' ordinal='1' />
+            <column datatype='integer' name='station_cnt' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[popular_routes_general.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>start_station_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[start_station_name]</local-name>
+            <parent-name>[popular_routes_general.csv]</parent-name>
+            <remote-alias>start_station_name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popular_routes_general.csv_6CD991C373C64BF1B534FB30FC79A2A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>end_station_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[end_station_name]</local-name>
+            <parent-name>[popular_routes_general.csv]</parent-name>
+            <remote-alias>end_station_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popular_routes_general.csv_6CD991C373C64BF1B534FB30FC79A2A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>station_cnt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[station_cnt]</local-name>
+            <parent-name>[popular_routes_general.csv]</parent-name>
+            <remote-alias>station_cnt</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popular_routes_general.csv_6CD991C373C64BF1B534FB30FC79A2A8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='popular_routes_general.csv' datatype='table' name='[__tableau_internal_object_id__].[popular_routes_general.csv_6CD991C373C64BF1B534FB30FC79A2A8]' role='measure' type='quantitative' />
+      <column caption='End Station Name' datatype='string' name='[end_station_name]' role='dimension' type='nominal' />
+      <column caption='Start Station Name' datatype='string' name='[start_station_name]' role='dimension' type='nominal' />
+      <column caption='Station Cnt' datatype='integer' name='[station_cnt]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='popular_routes_general.csv' id='popular_routes_general.csv_6CD991C373C64BF1B534FB30FC79A2A8'>
+            <properties context=''>
+              <relation connection='textscan.1jm9o1i0dvu4t310lycc50qdfjx8' name='popular_routes_general.csv' table='[popular_routes_general#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='start_station_name' ordinal='0' />
+                  <column datatype='string' name='end_station_name' ordinal='1' />
+                  <column datatype='integer' name='station_cnt' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Popular Routes in General Sense'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='popular_routes_general' name='federated.1djqxxq0su93o818izvbp15lbx07' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1djqxxq0su93o818izvbp15lbx07'>
+            <column caption='End Station Name' datatype='string' name='[end_station_name]' role='dimension' type='nominal' />
+            <column-instance column='[end_station_name]' derivation='None' name='[none:end_station_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[start_station_name]' derivation='None' name='[none:start_station_name:nk]' pivot='key' type='nominal' />
+            <column caption='Start Station Name' datatype='string' name='[start_station_name]' role='dimension' type='nominal' />
+            <column caption='Station Cnt' datatype='integer' name='[station_cnt]' role='measure' type='quantitative' />
+            <column-instance column='[station_cnt]' derivation='Sum' name='[sum:station_cnt:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <_.fcp.VizExtensions.false...mark class='Automatic' />
+            <_.fcp.VizExtensions.true...mark class='VizExtension' />
+            <_.fcp.VizExtensions.true...add-in add-in-id='com.tableau.extension.sankey' extension-url='https://extensions.tableauusercontent.com/sandbox/sankey/sankey.html' extension-version='1.5.0' instance-id='9EF2E6A672964E1E9B862F9D3AC0CF0A'>
+              <instance-settings />
+              <type-settings>
+                <worksheet />
+              </type-settings>
+            </_.fcp.VizExtensions.true...add-in>
+            <encodings>
+              <_.fcp.VizExtensions.false...lod column='[federated.1djqxxq0su93o818izvbp15lbx07].[none:start_station_name:nk]' />
+              <_.fcp.VizExtensions.true...custom column='[federated.1djqxxq0su93o818izvbp15lbx07].[none:start_station_name:nk]' custom-type-name='level' />
+              <_.fcp.VizExtensions.false...lod column='[federated.1djqxxq0su93o818izvbp15lbx07].[none:end_station_name:nk]' />
+              <_.fcp.VizExtensions.true...custom column='[federated.1djqxxq0su93o818izvbp15lbx07].[none:end_station_name:nk]' custom-type-name='level' />
+              <_.fcp.VizExtensions.false...lod column='[federated.1djqxxq0su93o818izvbp15lbx07].[sum:station_cnt:qk]' />
+              <_.fcp.VizExtensions.true...custom column='[federated.1djqxxq0su93o818izvbp15lbx07].[sum:station_cnt:qk]' custom-type-name='edge' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{1D6E5240-FC71-45D1-A281-93E5F71E41CD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='3' name='Popular Routes in General Sense' w='98400' x='800' y='1000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='5' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Popular Routes in General Sense' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4EAF06D1-036C-4D37-B71D-67F4C873B535}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Popular Routes in General Sense'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1djqxxq0su93o818izvbp15lbx07].[none:end_station_name:nk]</field>
+            <field>[federated.1djqxxq0su93o818izvbp15lbx07].[none:start_station_name:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{820C8FEC-AC73-4934-B855-00752111D162}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Popular Routes in General Sense' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{36B03BA1-6D7F-49E8-BB13-C1B6A80A5093}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Dashboard 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAYw0lEQVR4nO3deXBV5f3H8U8SWaJgEoiEEHaKGPYghcpmgBTosJUylWWkbNKwKUtlkSWR
+      LW0BB6tYoIhQK2thQEGoiATQwRokRMJWAhogRLZskAQIyX1+fzDcNhKoUCu/+n2/ZpjJPTnn
+      Ps99yJz3PedmwMc55wQAMMf3QU8AAPBgEAAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADA
+      KAIAAEYRAAAwigAAgFF3DcChQ4eUnJyslJQUXbt27TsdOCsrS9u3b7+vY/Py8pScnKzk5GSl
+      pqbK4/F8p3O7V8ePH9fVq1e/9f4FBQXat2+fPv74Y124cOG/OLM727x5821zds4pOTlZe/bs
+      UXp6+gOZF4Dvz10DMG3aNO3bt08ffPCBoqOj9cUXX3xnA+fm5iopKem+jj1x4oRef/11JSQk
+      aN26dRo2bJiysrLu67lee+21+zruX+3bt0+5ubnfat+0tDQNHjxYSUlJSktL09y5c5WcnPwf
+      z+FeJSQk6Pr168W2TZs2TTt37tTZs2c1f/587dq163ufF4Dvz0N3+2blypU1ZMgQSVJ6erpe
+      ffVVNWnSRJcvX9auXbv06KOPqk2bNnrooYeUmZmp69ev6+DBg/L391fr1q3l5+enixcvqnTp
+      0goICJB08+T9ox/9qNg4169fV1JSknJyctSwYUNVqVJFknTy5EnVrl1bhw8f1mOPPaaQkBDv
+      MU2bNtXQoUMlSVu2bNEHH3ygvn37SpIOHDigU6dOKSIiQjVq1PA+V506dSRJ58+fl7+/v9LS
+      0rR//37t379ffn5+atq0qSTp888/V3p6ulq2bOkdMzU1VcePH1doaKgaNmwoHx8f71xat26t
+      oKAg7zjlypXTvn37FBoaqieffLLYa33llVf00ksvqWHDhpKkfv366dY/yFpYWKidO3fKOad2
+      7drJ399fmZmZkqR//OMfysjIUNu2bb1rmZqaqsTERDVo0ED16tUrcc0CAwNLXNtvys/PV05O
+      jubMmeOdV1FR0T3PyzmnpKQkXbp0SU888YSqVat2x7kCeLC+9WcApUuXlnNO+fn5Gjt2rHx9
+      fZWWlqbJkyfLOafPPvtMkydPVmFhoQ4fPqxZs2ZJknbv3q2DBw96n6ekd9xbt25VSkqKPB6P
+      pkyZotOnT3v3nTdvntavX6/8/Pw7zq2goMD79V//+le9++67evTRRzVv3jwdOHBAkvT66697
+      9/nwww919OhRnTlzRrm5uTp58qRSU1MlSWvWrFF8fLyCgoI0bdo0ZWRk6OjRo5o7d64kadeu
+      XTp69Gix8ZctW+a9Apg2bZqWLFmismXLavny5cX2LSoqUmZmpvfkf8utmMTGxio7O1uFhYWa
+      NGmSd11HjRql1NRUFRYWetf10KFDevXVVxUSEqIVK1Zo7969Ja7Zndb2m/z9/XXlyhVt2LDB
+      u9Z+fn73PK81a9Zo+/btKioq0rJly+TxeO44VwAP1l2vAC5duqQNGzYoLy9Pu3fv1ogRI7Rz
+      505169ZN3bp1kySdOnVKX375pSSpf//+6ty5syRp5MiRt91iuJNevXopJydH58+fV5s2bZSc
+      nKzq1avrzJkzioqKUvfu3W87JjExUYsXL9b58+eVlZWluLg4SdL27du1ePFi+fn5qVGjRpo/
+      f74iIiJKHLdz587asmWLnnnmGe+2Xbt2adGiRfLx8VFhYaF27NihatWqqXLlymrVqpU6dep0
+      19cSEhKimJgYSTdvc507d07h4eGSpGvXrql8+fKSbl6F/O53v1N6erqef/551a5dW6VLl/bO
+      5ejRozp58qQkadCgQd51jY+PlyStX79ekyZN8l6RxMXFqVWrVretWa1atUpc22/y8fHRG2+8
+      obVr12rYsGFq1qyZRo8erYyMjHua16VLl1S3bl117NhRXbp0uetcATxYdw1AqVKl9Nhjj6l6
+      9erq2bOnAgICtGLFCtWvX9+7T9WqVZWRkXHbsRUqVPjWH4wuXbpUp06dUnh4uNLS0lSpUiVJ
+      UrVq1Uo8+UtSjRo1VK9ePe3Zs0d//OMf9fDDD0u6eaVy651rcHCw8vLyvtUcbklLS9OMGTMk
+      3bw11aJFCz311FO6ePGipk+fLkmaOHGiQkND7+l5pZvvsrOysuScU0hIiBYsWKA1a9bIOaeM
+      jAwdO3ZML7/8siTpypUrxa5sbrl1tZCRkaHFixd7H1eoUEHS7Wt2p7UtSbly5TR06FANGTJE
+      y5Yt09q1axUREXFP8xoyZIhWrVqlMWPGqEqVKpo0adId5wrgwbprAAICAtSuXbti22rXrq2k
+      pCS1aNFCknTw4EF16dKlWATy8vKUnp6uwMBA7ztpSbpx40aJv7GTmJioRYsWSZI2bdrk3f6v
+      99m/qWLFimrfvr0CAwM1fvx4vfLKKwoKCpLH49GVK1dUvnx5HTt2zHuivnU/Wyp+y6ioqEjO
+      Oe9YVatW1YQJE/TII4/IOafc3Fxdu3ZNPXv2VM+ePbV37169//77eu655+62dCXy9fXV448/
+      rq1bt6pr167FvhcWFqaQkBDFxsbKx8dHN27cUFFRkU6dOlXic1WvXl2dO3dW48aNJd08MZe0
+      Znda22/Kz89Xfn6+goOD5ePjo0aNGmnfvn33PC9fX18NGzZM0s3bbocOHbrjXAE8WHcNQEkn
+      4DZt2uj999/XzJkzlZ2drfDwcO8HpStXrlRiYqJSUlI0fPhwSVLDhg01Z84cJSQk6Ouvv/bG
+      4F+FhYVp1qxZKigo0Pnz5+/4rv9f53VrbhERERo9erTGjRunBQsWaOjQoRo7dqzCw8N19OhR
+      773pgIAAzZo1S3l5efrqq6+89+GbN2+u8ePHKzQ0VBMnTtTgwYM1evRo1alTR+fOnVOfPn3k
+      4+OjNWvWqE6dOjp27JheeOGFf7eud1y/sWPHavr06froo4/k7++v9PR0TZ48WRUqVFCzZs00
+      cuRIhYaG6vz585o6deodn3PAgAGaNm2aqlevrpycHIWHh5cYpW+7tjdu3ND06dNVunRplS9f
+      XhkZGZoxY8Y9z2vlypVKSUlRSEiIjh8/rsGDBys0NPRbzRXA98vnfv9P4AsXLsjX11fBwcGS
+      pG3btsk5px//+MeqWLGifH3/+fnylStXlJeXp5CQkBJPis45nTt3TuXLl1e5cuXu86X8U0FB
+      gdLT0xUWFqZSpUpJkjwej77++mtVqFBB/v7+xfbPzs7WQw895B3b4/EoKytLQUFB3tdRUFCg
+      ixcvKjg4WGXKlPmP53jrVkqFChWKrUlBQYHy8/MVEBBw1ysg6ea6ZWdnq1y5ct7XWdI+97K2
+      +fn5unHjhvc3je5nXnl5ecrOzlblypW9t+O+zVwBfL/uOwDftG3bNvn6+no/FAQA/P/2nQUA
+      APC/hX8LCACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMI
+      AAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAA
+      gFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAY
+      RQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEE
+      AACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAA
+      wCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACM
+      IgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgC
+      AABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAA
+      YBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABG
+      EQAAMIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQB
+      AACjCAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAA
+      MIoAAIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACj
+      CAAAGEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoA
+      AIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAA
+      GEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBR
+      Dz3oCQD/TRs3blRRUZH3cVhYmJ566qli+2RkZOjChQsKDw/3bjt+/LjKli2r6tWrf29zlaQb
+      N24oISFBrVu3VkpKiurWrftfHe/y5cvKz89X5cqVJUmZmZk6duyYWrVqJUnKz89XYmKiqlat
+      qqCgIAUEBJT4PJ988onOnTsnSfL19dUvfvGL2/Y5e/asgoKC9PDDD9/XXL/44gs1adLkvo5F
+      ybgCwA/akSNHdOTIEU2YMEFHjhzR6dOnb9snOTlZa9euLbZtzZo1+tvf/vZ9TdPL4/EoJiZG
+      ktSlS5f/+niJiYlavHix97G/v78GDRrkfbxx40Zt3bpVn376qc6ePXvH55k2bZp3rQ8fPlzi
+      PkuXLlVCQsJ9z3X9+vX3fSxKRgDwgzZ16lTFxMSoRo0aiomJUZ8+fZSSkqIhQ4YoKipKe/bs
+      kXTz3eXPf/5zjRgxQjk5Od7js7OzNWzYMP3yl7/U4cOHVVBQoLlz56pDhw6aMmWKJCk6Otq7
+      /62T9y1z5sxRVFSU1q1bJ0n605/+pKioKI0YMUJFRUWKjY3VH/7wB3Xs2FHLly9XmTJlVL9+
+      fc2cOVPnzp1T7969vc+Vl5eniRMnqnv37vrss8+0bds2vfPOO945pKena/jw4erTp48GDBig
+      ixcvSpJ+//vf66c//alWrFghSYqNjdXSpUv1wgsvaOrUqVq9erVWr14t6WYAWrZs6V2XjRs3
+      6le/+pUkycfHR7Gxserevbu6d++ut956q9hrjYmJUUxMjKZPn660tDRNmjRJkvTaa6/p7bff
+      1urVqzVlyhQdOnRIu3fvVteuXTV16lQVFBRo4cKFmjt3rqKiohQXFydJmjFjhjp06KC4uDg5
+      5+Tre/N09fHHH6tnz54aNWqUsrOztXv3bsXExKh3794aOHCgrl69qo0bNyoqKkrR0dHKysq6
+      9x8cKxxgwNNPP+39euHChS4hIcElJSW5yMhIFx8f79q1a+cuXrzo4uLi3PTp092MGTPckiVL
+      3IABA9y6devcoUOHXJs2bdyRI0fcwoULXUFBgQsPD3dHjx51QUFBJY7z5ptvuujoaHf58mX3
+      s5/9zB05csTNmTPH5ebmul69ern4+HgXGRnpFi5c6C5duuSCg4O9x167ds3VrFnT5eXlebfN
+      nj3bzZ07150/f941btzY5ebmuubNm7uRI0e6l19+2Z04ccLVrFnTnT592q1cudL169fPvfXW
+      W27gwIEuOzvbde7c2f397393kZGRbsKECe769etu27ZtbsqUKa6goMA7zrvvvuuio6Nddna2
+      a9y4sXPOudjYWBcfH++ccy4/P9+1aNHC7d+/v9jrjoyMdJGRke7AgQPOOeeeffZZN3HiRNe+
+      fXtXWFjoXnrpJbdt2zZ3+fJl16hRI3fx4kUXGxvrFi9e7AYMGOB+85vfuKysLNegQQOXlpbm
+      6tWr527cuOFWrFjhioqK3NNPP+1yc3Nd/fr1XVpamlu0aJEbPHiwW7ZsmevYsaM7c+aMi46O
+      dvHx8e7xxx93Z8+edVu2bHFnz579Tn6Gfoj4DADmtGjRQpMmTVKtWrXknJMktW/fXsHBwera
+      tavGjx+vdu3aSZJOnDihTZs2adOmTfL391dYWJj27dun9957T0VFRcrMzLzjOCdOnFDfvn1V
+      vnx5bd26VUVFRbp06ZK6desmj8fj3W/UqFGSJD8/P++2MmXKyNfXt9j98p07d8rf319JSUmq
+      XLmyypQpozFjxuj5559XRkaGvvrqK9WqVUvVqlVT//79tWTJEqWkpGjQoEEKCAhQt27d9OGH
+      H0qS5s6dK0kqW7asSpUqpVKlSnnH6datmyZPnqyNGzdqwIABt72usWPHauDAgWrWrFmx7fHx
+      8cUex8XFqXr16kpMTJSfn59Kly6tsmXL6sCBA8rJydGYMWN0/fp1Va1aVZLUo0cPBQYGKjg4
+      WGFhYerRo4ciIiLUtm1b9e/fX5K0f/9+NWnSRGFhYRo+fLhWrVqlNm3aqF27dqpatar3s4zY
+      2Fh16dJFdevW1YIFC+74d2Qdt4BgzvDhw7VhwwZNnDjRu+3QoUOSpGPHjqlevXre7ZUqVdL4
+      8eO1cuVK9evXT4sXL1bDhg313nvvKTAwUM4574k7KSmp2DghISHee97Tp0/XunXr5PF4FB8f
+      r7CwsH87z2vXrhV7/MQTT+jZZ5/VypUr1bdvXxUWFuqNN95Qz549NW/ePEnSpUuXdPXqVSUm
+      JiooKEghISH69NNPJd08eTZq1Ojfjuvr66s2bdroxRdf1DPPPFPse6tWrVJOTo5Gjhz5b59n
+      5syZGjVqlPdW2S316tXTo48+qj//+c/67W9/W2y9b8nJyVGPHj2UnJyszMxM7d2717sGBw8e
+      1PXr17V3714FBweXOHZgYKAOHjyoqKgoLV++XGfOnPF+SI1/IgAwoWnTpt6ve/TooU6dOmn2
+      7NmqWbOmAgMD5ePjo7Zt2+rtt9/WlClTVLNmTVWpUkWzZ8/W+PHj1bZtW3k8HrVu3VrvvPOO
+      evTooQYNGqhcuXIaNWqUmjdvrgULFhQbZ+jQofr888/VvHlzeTwetWrVSvHx8erUqZP8/Pzk
+      nCv2Wy2tW7cuNudOnTopMjLS+zgmJkZ/+ctf1Lp1a3355ZfavHmzoqOj9eabbyopKUlZWVm6
+      fPmyunTponHjxmnmzJl67rnndPjwYUVERKh8+fLq2bNnsTFr1qypzZs3a+nSpcXGHjhwoCIj
+      I72/BXVrndatW6e8vDz16tVLM2fOLLa+HTp08P7ZuHGjHnnkES1cuFAtW7bUJ598ooiICL34
+      4otKTU3V6NGjFRkZqV//+teqWLGiwsPDvb9h1LRpU3k8Hs2fP18/+clPVFBQoCeffFJNmzZV
+      pUqVNG7cOLVr104xMTGKi4tTaGioatSoUWyeO3bsUPPmzbVu3Tr17t1bH330kXbs2HG/Pz4/
+      WD7u1jUwgP9pJ0+e1LBhw7Rz584HPRX8j+AKAPiBCAkJ0bBhwx70NPA/hCsAADCKKwAAMIoA
+      AIBRBAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAA
+      GEUAAMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBR
+      BAAAjCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUA
+      AMAoAgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAA
+      jCIAAGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAo
+      AgAARhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIA
+      AGAUAQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAA
+      RhEAADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAU
+      AQAAowgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEA
+      ADCKAACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAA
+      owgAABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCK
+      AACAUQQAAIwiAABgFAEAAKMIAAAYRQAAwCgCAABGEQAAMIoAAIBRBAAAjCIAAGAUAQAAowgA
+      ABhFAADAKAIAAEYRAAAwigAAgFEEAACMIgAAYBQBAACjCAAAGEUAAMAoAgAARhEAADCKAACA
+      UQQAAIwiAABgFAEAAKMIAAAYRQAAwKj/A6nBfadMy26gAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='384' name='Popular Routes in General Sense' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+  <_.fcp.VizExtensions.true...referenced-extensions>
+    <_.fcp.VizExtensions.true...referenced-extension>
+      <manifest manifest-version='0.1'>
+        <worksheet-extension extension-version='1.5.0' id='com.tableau.extension.sankey'>
+          <default-locale>en_US</default-locale>
+          <name>Sankey</name>
+          <description>Visualisation of flows between nodes (levels) with proportionally sized edges.</description>
+          <author email='github@tableau.com' name='tableau' organization='tableau' website='https://www.tableau.com' />
+          <min-api-version>1.11</min-api-version>
+          <source-location>
+            <url>https://extensions.tableauusercontent.com/sandbox/sankey/sankey.html</url>
+          </source-location>
+          <icon />
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+          <encoding id='level'>
+            <display-name resource-id='level-id'>Level</display-name>
+            <role-spec>
+              <role-type>discrete-dimension</role-type>
+              <role-type>discrete-measure</role-type>
+            </role-spec>
+            <fields max-count='5' />
+            <encoding-icon token='level' />
+            <tooltip resource-id='level-id'>Level</tooltip>
+          </encoding>
+          <encoding id='edge'>
+            <display-name resource-id='edge-id'>Link</display-name>
+            <role-spec>
+              <role-type>continuous-dimension</role-type>
+              <role-type>continuous-measure</role-type>
+            </role-spec>
+            <fields max-count='1' />
+            <encoding-icon token='edge' />
+            <tooltip resource-id='edge-id'>Edge</tooltip>
+          </encoding>
+        </worksheet-extension>
+        <resources>
+          <resource id='edge-id'>
+            <text locale='de_DE'>Verbindungen</text>
+            <text locale='en_GB'>Link</text>
+            <text locale='en_US'>Link</text>
+            <text locale='es_ES'>Vínculos</text>
+            <text locale='fr_CA'>Lien</text>
+            <text locale='fr_FR'>Lien</text>
+            <text locale='it_IT'>Collegamento</text>
+            <text locale='ja_JP'>リンク</text>
+            <text locale='ko_KR'>링크</text>
+            <text locale='pt_BR'>Elos</text>
+            <text locale='sv_SE'>länkar</text>
+            <text locale='th_TH'>ลิงก์</text>
+            <text locale='zh_CN'>链接</text>
+            <text locale='zh_TW'>連結</text>
+          </resource>
+          <resource id='level-id'>
+            <text locale='de_DE'>Ebene</text>
+            <text locale='en_GB'>Level</text>
+            <text locale='en_US'>Level</text>
+            <text locale='es_ES'>nivel</text>
+            <text locale='fr_CA'>niveau</text>
+            <text locale='fr_FR'>niveau</text>
+            <text locale='it_IT'>livello</text>
+            <text locale='ja_JP'>レベル</text>
+            <text locale='ko_KR'>레벨</text>
+            <text locale='pt_BR'>nível</text>
+            <text locale='sv_SE'>nivå</text>
+            <text locale='th_TH'>ระดับ</text>
+            <text locale='zh_CN'>级别</text>
+            <text locale='zh_TW'>級別</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='Popular Routes in General Sense' />
+      </referenced-views>
+    </_.fcp.VizExtensions.true...referenced-extension>
+  </_.fcp.VizExtensions.true...referenced-extensions>
+</workbook>
