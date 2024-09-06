@@ -1,0 +1,68 @@
+start_station_name,end_station_name,ride_month,route_cnt
+1 Ave & E 68 St,University Pl & E 14 St,5,1
+1 Ave & E 68 St,W 21 St & 6 Ave,9,1
+1 Ave & E 68 St,W 31 St & 7 Ave,6,1
+11 Ave & W 41 St,Broadway & W 58 St,4,1
+11 Ave & W 41 St,W 21 St & 6 Ave,12,1
+11 Ave & W 41 St,W 31 St & 7 Ave,10,1
+6 Ave & W 33 St,Broadway & W 58 St,8,1
+6 Ave & W 33 St,W 21 St & 6 Ave,6,1
+6 Ave & W 33 St,W 21 St & 6 Ave,9,1
+6 Ave & W 33 St,W 41 St & 8 Ave,1,2
+Broadway & E 21 St,6 Ave & W 33 St,7,1
+Broadway & E 21 St,Broadway & E 14 St,1,1
+Broadway & E 21 St,Broadway & E 14 St,3,1
+Broadway & E 21 St,Broadway & E 14 St,6,1
+Broadway & E 21 St,Broadway & E 14 St,8,2
+Broadway & E 21 St,Broadway & W 58 St,7,1
+Broadway & E 21 St,E 17 St & Broadway,3,1
+Broadway & E 21 St,E 17 St & Broadway,9,1
+Broadway & E 21 St,E 17 St & Broadway,12,1
+Broadway & E 21 St,University Pl & E 14 St,5,1
+Broadway & E 21 St,University Pl & E 14 St,7,1
+Broadway & E 21 St,University Pl & E 14 St,10,2
+Broadway & E 21 St,W 21 St & 6 Ave,1,1
+Broadway & E 21 St,W 21 St & 6 Ave,10,2
+Broadway & W 25 St,6 Ave & W 33 St,4,1
+Broadway & W 25 St,6 Ave & W 33 St,10,1
+Broadway & W 25 St,6 Ave & W 33 St,12,1
+Broadway & W 25 St,Broadway & E 14 St,8,1
+Broadway & W 25 St,Broadway & E 14 St,11,1
+Broadway & W 25 St,E 17 St & Broadway,4,1
+Broadway & W 25 St,West St & Liberty St,7,1
+Broadway & W 58 St,Broadway & W 58 St,4,1
+Broadway & W 58 St,Broadway & W 58 St,6,1
+Broadway & W 58 St,Broadway & W 58 St,7,1
+Broadway & W 58 St,Broadway & W 58 St,11,1
+Broadway & W 58 St,University Pl & E 14 St,4,1
+Broadway & W 58 St,W 31 St & 7 Ave,7,1
+Broadway & W 58 St,W 31 St & 7 Ave,8,1
+Broadway & W 58 St,W 41 St & 8 Ave,10,1
+Broadway & W 58 St,West St & Liberty St,11,1
+University Pl & E 14 St,6 Ave & W 33 St,4,1
+University Pl & E 14 St,Broadway & E 14 St,3,1
+University Pl & E 14 St,University Pl & E 14 St,7,1
+University Pl & E 14 St,University Pl & E 14 St,12,1
+University Pl & E 14 St,W 21 St & 6 Ave,3,1
+University Pl & E 14 St,W 21 St & 6 Ave,8,1
+University Pl & E 14 St,W 21 St & 6 Ave,10,1
+W 21 St & 6 Ave,6 Ave & W 33 St,12,1
+W 21 St & 6 Ave,Broadway & E 14 St,11,2
+W 21 St & 6 Ave,E 17 St & Broadway,7,1
+W 21 St & 6 Ave,E 17 St & Broadway,9,1
+W 21 St & 6 Ave,E 17 St & Broadway,12,1
+W 21 St & 6 Ave,University Pl & E 14 St,8,1
+W 21 St & 6 Ave,W 21 St & 6 Ave,5,1
+W 21 St & 6 Ave,W 21 St & 6 Ave,6,1
+W 21 St & 6 Ave,W 31 St & 7 Ave,5,1
+W 21 St & 6 Ave,W 31 St & 7 Ave,9,1
+W 41 St & 8 Ave,Broadway & W 58 St,4,1
+W 41 St & 8 Ave,W 41 St & 8 Ave,7,1
+West St & Chambers St,West St & Chambers St,1,1
+West St & Chambers St,West St & Chambers St,3,1
+West St & Chambers St,West St & Chambers St,6,1
+West St & Chambers St,West St & Chambers St,7,1
+West St & Chambers St,West St & Chambers St,9,1
+West St & Chambers St,West St & Chambers St,11,1
+West St & Chambers St,West St & Liberty St,4,2
+West St & Chambers St,West St & Liberty St,12,1
