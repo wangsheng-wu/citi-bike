@@ -20,6 +20,8 @@ This project is divided into several stages.
             (Jupyter Notebook for monthly dataset preparation to be uploaded)
 
   Stage 2 - Analyze the data of a whole year (year 2023).
+  
+            Sep 4, 2024: Stage 2 Dataset Prepared. Start to do analysis.
 
   Stage 3 - Try to analyze all available data (since 2013).
 
