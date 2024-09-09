@@ -23,6 +23,12 @@ This project is divided into several stages.
   
             Sep 4, 2024: Stage 2 Dataset Prepared. Start to do analysis.
 
+            Sep 5, 2024: An overview of the dashboard uploaded.
+
+            Sep 6, 2024: A main dataset used uploaded.
+
+            Sep 7, 2024: Supplement datasets and dashboards uploaded.
+
   Stage 3 - Try to analyze all available data (since 2013).
 
   Stage 4 - Develop an automated process to analyze real time data.
