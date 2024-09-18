@@ -29,7 +29,7 @@ This project is divided into several stages.
 
             Sep 7, 2024: Supplement datasets and dashboards uploaded.
 
-  Stage 3 - Try to analyze all available data (since 2013).
+  Stage 3 - Try to analyze data of the last 3-5 years and develop a model to forecast the bike sharing in the next year.
 
   Stage 4 - Develop an automated process to analyze real time data.
 
